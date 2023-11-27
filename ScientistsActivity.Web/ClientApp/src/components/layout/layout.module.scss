@@ -1,0 +1,22 @@
+.navBar {
+  width: 100%;
+  padding: 15px 25px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.wrap {
+  font-size: 36px;
+  letter-spacing: 2px;
+  font-weight: 700;
+
+  & a {
+    color: #5e5e5e;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    font-family: 'Open Sans', serif;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}

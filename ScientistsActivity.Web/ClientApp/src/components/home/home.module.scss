@@ -1,0 +1,151 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.subTitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 40px 7%;
+}
+
+.label {
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.resultTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: #545454;
+}
+
+.resultContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 7%;
+  gap: 30px;
+}
+
+.microservice {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+}
+
+.resultItemContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 30px;
+  position: relative;
+}
+
+.itemTitle {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 5px;
+}
+
+.itemTitleText {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+}
+
+.itemTitleAuthor {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+}
+
+.itemSubTitle {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.itemSubTitleText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+}
+
+.itemSubTitleAbsolute {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: gray;
+
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.resultItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.itemContent {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+  margin-top: 20px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+}
+
+.static {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+  width: 100%;
+}

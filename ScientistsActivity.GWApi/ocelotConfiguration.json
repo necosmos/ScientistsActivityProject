@@ -1,0 +1,109 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5158
+        }
+      ],
+      "UpstreamPathTemplate": "/api/json/{everything}",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "HttpClientHandler": {
+        "DangerousAcceptAnyServerCertificateValidator": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5132
+        }
+      ],
+      "UpstreamPathTemplate": "/api/database/{everything}",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "HttpClientHandler": {
+        "DangerousAcceptAnyServerCertificateValidator": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5133
+        }
+      ],
+      "UpstreamPathTemplate": "/api/xml/{everything}",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "HttpClientHandler": {
+        "DangerousAcceptAnyServerCertificateValidator": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5175
+        }
+      ],
+      "UpstreamPathTemplate": "/api/google/{everything}",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "HttpClientHandler": {
+        "DangerousAcceptAnyServerCertificateValidator": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5015
+        }
+      ],
+      "UpstreamPathTemplate": "/api/internation/{everything}",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "HttpClientHandler": {
+        "DangerousAcceptAnyServerCertificateValidator": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/initial",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5120
+        }
+      ],
+      "UpstreamPathTemplate": "/api/search",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "HttpClientHandler": {
+        "DangerousAcceptAnyServerCertificateValidator": true
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5273"
+  }
+}
